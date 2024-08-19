@@ -25,7 +25,7 @@ Select count(*) from orders_details;
 
 -- To find pizzas name and category consisting ingredient of garlic. 
 
-select name, category from pizza_types where ingredients like '%Garlic%';
+select name from pizza_types where category = "Chicken" or ingredients like "%Garlic%";
 
 -- total no. of order in 11am to 5pm in 01/01/2023.
 
